@@ -1,6 +1,20 @@
 $(document).ready(function () {
     
     
+    //HEADER SEARCH ICON TOGGLER
+    $('.search-icon').click(function(){
+        $(this).next().slideToggle();
+    });
+    
+    
+    
+ //BURGER TOGGLER ANIMATION 
+    $('.burger').click(function () {
+        $(this).toggleClass('active');
+    });
+    
+    
+    
     
     //FILL ELEMENTS DEPENDS OF CATEGORY
     $('[data-category]').each(function () {
