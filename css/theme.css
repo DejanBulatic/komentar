@@ -25,6 +25,8 @@ body {
     width: 100%; }
   .img-holder.size-1by1:after {
     padding-top: 100%; }
+  .img-holder.size-2-425by1:after {
+    padding-top: 41%; }
   .img-holder.size-4by3:after {
     padding-top: 75%; }
   .img-holder.size-16by9:after {
@@ -311,10 +313,6 @@ body {
 
 /* TOP HEADER END */
 /* BOTTOM HEADER START */
-.header-bottom {
-  /*    position: relative;
-      top: -2px;*/ }
-
 .navbar-light .navbar-nav .nav-link {
   font-size: 18px;
   color: #25282A; }

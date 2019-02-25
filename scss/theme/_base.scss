@@ -30,11 +30,19 @@ body {
             padding-top: 100%;
         }
     }
+    
+    &.size-2-425by1 {
+        &:after {
+            padding-top: 41%;
+        }
+    }
+    
     &.size-4by3{
         &:after{
             padding-top: 75%;
         }
     }
+    
     &.size-16by9{
         &:after{
             padding-top: 56.25%;
