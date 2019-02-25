@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700&subset=latin-ext");
+.font-weight-medium {
+  font-weight: 500; }
+
 @font-face {
   font-family: 'Geneva';
   src: url("fonts/Geneva/Geneva.eot?#iefix") format("fonts/Geneva/embedded-opentype"), url("fonts/Geneva/Geneva.woff") format("woff"), url("fonts/Geneva/Geneva.ttf") format("truetype"), url("fonts/Geneva/Geneva.svg#Geneva") format("svg");
@@ -12,6 +15,10 @@ img {
 
 body {
   font-family: "Roboto", sans-serif; }
+
+/******        COLORS     ******/
+.custom-gray-1 {
+  color: #7C7C7C; }
 
 .img-holder {
   position: relative;
@@ -424,5 +431,30 @@ body {
 
   .navbar-nav .nav-item a {
     padding: 0px !important; } }
+.lead-news-section .side-header {
+  position: relative; }
+  .lead-news-section .side-header:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -4px;
+    height: 4px;
+    width: 100%;
+    background: linear-gradient(to right, #8AB957 70%, transparent); }
+.lead-news-section .side-item .fa {
+  display: inline-block;
+  color: #fff;
+  width: 23px;
+  height: 23px;
+  line-height: 11px;
+  padding: 7px;
+  background: #D8D8D8;
+  border-radius: 50%; }
+.lead-news-section .side-item .side-item-name {
+  border-bottom: 1px solid #ccc; }
+  .lead-news-section .side-item .side-item-name:last-of-type {
+    border-bottom: none; }
+.lead-news-section .side-item .side-item-small-nr {
+  font-size: 12px; }
 
 /*# sourceMappingURL=theme.css.map */

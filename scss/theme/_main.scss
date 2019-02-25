@@ -1,0 +1,37 @@
+.lead-news-section {
+    .side-header {
+        position: relative;
+        &:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: -4px;
+            height: 4px;
+            width: 100%;
+            background: linear-gradient(to right, #8AB957 70%,  transparent);
+        }
+    }
+    .side-item {
+
+        .fa {
+            display: inline-block;
+            color: #fff;
+            width: 23px;
+            height: 23px;
+            line-height: 11px;
+            padding: 7px;
+            background: #D8D8D8;
+            border-radius: 50%;
+        }
+        .side-item-name {
+            border-bottom: 1px solid #ccc;
+            &:last-of-type {
+                border-bottom: none;
+            }
+        }
+        .side-item-small-nr {
+            font-size: 12px;
+        }
+    }
+}
+

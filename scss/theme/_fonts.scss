@@ -9,6 +9,9 @@ $font-weight-medium: 500;
 $font-weight-medium-italic: 500i;
 $font-weight-bold: 700;
 
+.font-weight-medium {
+    font-weight: 500;
+}
 
 @font-face {
     font-family: 'Geneva';
