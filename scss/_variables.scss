@@ -136,7 +136,8 @@ $spacers: map-merge(
     2: ($spacer * .5),
     3: ($spacer * 1),
     4: ($spacer * 1.5),
-    5: ($spacer * 3)
+    5: ($spacer * 3),
+    6: ($spacer * .7)
   ),
   $spacers
 );
@@ -150,7 +151,7 @@ $sizes: map-merge(
     15: 15%,
     20: 20%,
     25: 25%,
-    30: 35%,
+    30: 30%,
     50: 50%,
     55: 55%,
     60: 60%,
@@ -226,8 +227,8 @@ $container-max-widths: (
 //
 // Set the number of columns and specify the width of the gutters.
 
-$grid-columns:                12 !default;
-$grid-gutter-width:           30px !default;
+$grid-columns:                18 !default;
+$grid-gutter-width:           18px !default;
 
 
 // Components

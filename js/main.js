@@ -1,30 +1,30 @@
 $(document).ready(function () {
-    
-    
+
+
     //HEADER SEARCH ICON TOGGLER
-    $('.search-icon').click(function(){
+    $('.search-icon').click(function () {
         $(this).next().slideToggle();
     });
-    
-    
-    
- //BURGER TOGGLER ANIMATION 
+
+
+
+    //BURGER TOGGLER ANIMATION 
     $('.burger').click(function () {
         $(this).toggleClass('active');
     });
-    
-    
-    
-    
+
+
+
+
     //FILL ELEMENTS DEPENDS OF CATEGORY
     $('[data-category]').each(function () {
         var color = $(this).data('category');
         $(this).find('.category-bg').css('background', color);
         $(this).find('.category-border').css('border-color', color);
-        $(this).find('.category-color').css('color', color );
+        $(this).find('.category-color').css('color', color);
     });
-    
-    
+
+
     // EASE SCROLL
 
     $(document).on('click', 'a[href^="#"]', function (event) {
@@ -34,10 +34,10 @@ $(document).ready(function () {
             scrollTop: $($.attr(this, 'href')).offset().top
         }, 800);
     });
-    
-    
+
+
     //ANIMATION 
-    
+
     function animation() {
         var windowHight = $(window).height();
         var scroll = $(window).scrollTop();
@@ -59,11 +59,23 @@ $(document).ready(function () {
     $(window).scroll(function () {
         animation();
     });
-    
-    
-    
-    
-    
+
+
+//OWL CAROUSEL LEAD NEWS
+
+    if ($('.owl-carousel').length > 0) {
+        
+        $('.lead-slider').owlCarousel({
+            items: 1,
+            loop: true,
+            mouseDrag: true,
+            nav: true,
+            navText: ['<span class="fa fa-chevron-left"></span>', '<span class="fa fa-chevron-right"></span>']
+            
+            
+        });
+    }
+
 
 
 
