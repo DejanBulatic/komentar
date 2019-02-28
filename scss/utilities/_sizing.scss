@@ -3,9 +3,13 @@
 // Width and height
 
 @each $prop, $abbrev in (width: w, height: h) {
-  @each $size, $length in $sizes {
-    .#{$abbrev}-#{$size} { #{$prop}: $length !important; }
-  }
+    @each $size, $length in $sizes {
+        .#{$abbrev}-#{$size} {
+            #{$prop}: $length !important;
+            /*        flex-basis: $length !important;
+                    max-width: $length !important;*/
+        }
+    }
 }
 
 .mw-100 { max-width: 100% !important; }

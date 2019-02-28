@@ -1,6 +1,7 @@
 // Inline code
 code {
   @include font-size($code-font-size);
+  @import "_variables.scss";
   color: $code-color;
   word-break: break-word;
 

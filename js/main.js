@@ -70,7 +70,8 @@ $(document).ready(function () {
             loop: true,
             mouseDrag: true,
             nav: true,
-            navText: ['<span class="fa fa-chevron-left"></span>', '<span class="fa fa-chevron-right"></span>']
+            navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>'],
+            dots: false
             
             
         });
