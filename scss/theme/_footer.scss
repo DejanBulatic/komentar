@@ -2,4 +2,12 @@ footer {
     background: #272727;
     
 }
+.footer-nav a {
+    font-size: 1.28rem;
+    color: #fff;
+    margin-left: 1.5rem;
+    &:hover {
+        color: #fff;
+    }
+}
 

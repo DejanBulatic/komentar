@@ -643,6 +643,21 @@ body {
   width: 8px;
   height: 8px; }
 
+.owl-carousel.owl-drag .owl-item {
+  padding-bottom: 20px; }
+
+.comments-slider li:after {
+  content: '';
+  background: url(assets/Screenshot.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 40px;
+  width: 40px;
+  bottom: -26px;
+  left: 50px;
+  position: absolute; }
+
 /* COMMENTS SLIDER SECTION END */
 /* YOUTUBE COMMENTS */
 .article-comments-header {
@@ -667,5 +682,12 @@ body {
 /* YOUTUBE COMMENTS END */
 footer {
   background: #272727; }
+
+.footer-nav a {
+  font-size: 1.28rem;
+  color: #fff;
+  margin-left: 1.5rem; }
+  .footer-nav a:hover {
+    color: #fff; }
 
 /*# sourceMappingURL=theme.css.map */
