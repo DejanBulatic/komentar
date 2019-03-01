@@ -187,26 +187,33 @@
     font-size: 15px;
     border-bottom: 1.5px solid #E4E2E2;
     font-weight: 500;
-    
+}
+.owl-carousel .owl-dots .owl-dot.active span, 
+.owl-carousel .owl-dots .owl-dot:hover span {
+    background: #0BAE92;
+}
+.owl-carousel .owl-dots .owl-dot span {
+    width: 8px;
+    height: 8px;
 }
 /* COMMENTS SLIDER SECTION END */
 /* YOUTUBE COMMENTS */
-.youtube-comments-header {
+.article-comments-header {
     background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            width: 100%;
-            padding: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    padding: 10px;
 }
-.youtube-quote-item {
-   padding: 12px 30px 12px 12px;
+.article-quote-item {
+    padding: 12px 30px 12px 12px;
 }
-.youtube-quote-details {
+.article-quote-details {
     font-size: 15px;
     font-weight: 500;
 }
-.youtube-comments-item .shared-nr {
+.article-comments-item .shared-nr {
     right: 0;
     bottom: 35px;
 }
