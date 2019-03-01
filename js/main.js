@@ -77,7 +77,35 @@ $(document).ready(function () {
         });
     }
 
+// OWL CAROUSEL COMMENTS SLIDER
 
+if ($('.owl-carousel').length > 0) {
+        
+        $('.comments-slider').owlCarousel({
+            items: 4,
+            loop: true,
+            margin: 20,
+//            autoplay: true,
+            responsive: {
+                0:{
+                    items:1
+                },
+                500:{
+                    items:2
+                },
+                991:{
+                    items:3
+                },
+                1200:{
+                    items:4
+                }
+                
+            }//responsive end
+            
+            
+            
+        });//comments slider end
+    }//owl carousel end
 
 
 

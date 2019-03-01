@@ -155,6 +155,59 @@
 
 /* SECTION03 END */
 
-/* COMENTS SLIDER SECTION */
-
-/* COMENTS SLIDER SECTION END */
+/* COMMENTS SLIDER SECTION */
+.comments-item {
+    border: 0.5px solid #ABABAB;
+    padding: 15px 35px;
+    position: relative;
+    &:before {
+        content: '"';
+        position: absolute;
+        color: #0BAE92;
+        font-size: 40px;
+        font-family: 'Geneva';
+        top: 55px;
+        left: 10px;
+        line-height: 0px;
+    }
+    &:after {
+        content: '"';
+        position: absolute;
+        color: #0BAE92;
+        font-size: 40px;
+        font-family: 'Geneva';
+        bottom: 60px;
+        right: 5px;
+        height: 30px;
+        width: 30px;
+        line-height: 0px;
+    }
+}
+.comments-quote {
+    font-size: 15px;
+    border-bottom: 1.5px solid #E4E2E2;
+    font-weight: 500;
+    
+}
+/* COMMENTS SLIDER SECTION END */
+/* YOUTUBE COMMENTS */
+.youtube-comments-header {
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            padding: 10px;
+}
+.youtube-quote-item {
+   padding: 12px 30px 12px 12px;
+}
+.youtube-quote-details {
+    font-size: 15px;
+    font-weight: 500;
+}
+.youtube-comments-item .shared-nr {
+    right: 0;
+    bottom: 35px;
+}
+/* YOUTUBE COMMENTS END */
