@@ -64,7 +64,7 @@ $(document).ready(function () {
 //OWL CAROUSEL LEAD NEWS
 
     if ($('.owl-carousel').length > 0) {
-        
+
         $('.lead-slider').owlCarousel({
             items: 1,
             loop: true,
@@ -72,44 +72,61 @@ $(document).ready(function () {
             nav: true,
             navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>'],
             dots: false
-            
-            
+
+
         });
     }
 
 // OWL CAROUSEL COMMENTS SLIDER
 
-if ($('.owl-carousel').length > 0) {
-        
+    if ($('.owl-carousel').length > 0) {
+
         $('.comments-slider').owlCarousel({
             items: 4,
             loop: true,
             margin: 20,
-//            autoplay: true,
+            autoplay: true,
             responsive: {
-                0:{
-                    items:1
+                0: {
+                    items: 1
                 },
-                500:{
-                    items:2
+                500: {
+                    items: 2
                 },
-                991:{
-                    items:3
+                991: {
+                    items: 3
                 },
-                1200:{
-                    items:4
+                1200: {
+                    items: 4
                 }
-                
+
             }//responsive end
-            
-            
-            
+
+
+
         });//comments slider end
     }//owl carousel end
 
 
+//UHVACEN BOT VERTICAL SLICK SLIDER
 
+    $('.vertical-slider-bot').slick({
+        autoplay: true,
+        slidesToShow: 6,
+        vertical: true,
+        verticalSwiping: true,
+        arrows: false
+    });
 
+//QUOTES VERTICAL SLICK SLIDER
+
+    $('.vertical-slider-quotes').slick({
+        autoplay: true,
+        slidesToShow: 4,
+        vertical: true,
+        verticalSwiping: true,
+        arrows: false
+    });
 
 
 });//end document.ready
