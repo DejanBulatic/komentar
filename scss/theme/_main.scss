@@ -63,6 +63,9 @@
             bottom: 40px;
         }
     }
+    .owl-carousel .owl-nav [class*='owl-'] {
+        margin: 0px !important;
+    }
     /* LEAD NEWS OWL CAROUSEL SLIDER END */
 
     /* LEAD NEWS TABULATOR */
@@ -213,6 +216,7 @@
         position: absolute;
     }
 }
+
 /* COMMENTS SLIDER SECTION END */
 /* YOUTUBE COMMENTS */
 .article-comments-header {
@@ -222,6 +226,11 @@
     right: 0;
     width: 100%;
     padding: 10px;
+}
+.comments-header-details {
+    height: 2.4rem;
+    overflow: hidden;
+    margin-bottom: 5px;
 }
 .article-quote-item {
     padding: 12px 30px 12px 12px;
