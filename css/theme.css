@@ -482,7 +482,7 @@ body {
     transition: 0.4s ease; }
 
   .navbar-nav li a:hover span,
-  .navbarnav-li a.active span {
+  .navbar-nav-li a.active span {
     border-color: inherit !important;
     width: 100%; }
 
@@ -601,9 +601,19 @@ body {
   padding: 17px 31px 17px 19px; }
   .article-item .article-details {
     line-height: 1.3rem; }
+  .article-item h6 {
+    height: 2.6rem;
+    overflow: hidden; }
   .article-item .shared-nr {
     top: 50%;
     right: -8px; }
+
+.article-quote-details {
+  display: inline-block;
+  line-height: 1.3rem;
+  color: #25282A; }
+  .article-quote-details:hover {
+    color: #25282A; }
 
 /* SECTION03 END */
 /* COMMENTS SLIDER SECTION */
@@ -635,7 +645,11 @@ body {
 .comments-quote {
   font-size: 15px;
   border-bottom: 1.5px solid #E4E2E2;
-  font-weight: 500; }
+  font-weight: 500;
+  line-height: 1.3rem; }
+
+.new-comments-details {
+  line-height: 1.14rem; }
 
 .owl-carousel .owl-dots .owl-dot.active span,
 .owl-carousel .owl-dots .owl-dot:hover span {
