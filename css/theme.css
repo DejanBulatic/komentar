@@ -751,13 +751,20 @@ body {
   width: 100%;
   background: #D8D8D8; }
 
-/******* DRUGA STRANA ASIDE ********/
+/******* SECOND PAGE ASIDE ********/
+.second-page-aside {
+  display: none; }
+
 .last-comments .section-side-list-details {
   border-bottom: 1px solid #D8D8D8; }
 
 .section-side-list:last-of-type .section-side-list-details {
   border-bottom: none; }
 
+@media (min-width: 992px) {
+  /** second page aside show / hide */
+  .second-page-aside {
+    display: block; } }
 .vesti-category-home {
   display: inline-block;
   padding: 6px;
