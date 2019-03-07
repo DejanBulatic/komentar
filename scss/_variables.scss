@@ -40,7 +40,7 @@ $pink:    #e83e8c !default;
 $red:     #dc3545 !default;
 $orange:  #fd7e14 !default;
 $yellow:  #ffc107 !default;
-$green:   #28a745 !default;
+$green:   #8AB957 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 
@@ -139,7 +139,9 @@ $spacers: map-merge(
     5: ($spacer * 3),
     6: ($spacer * .7),
     7: ($spacer * 2.1),
-    8: ($spacer * 5.4)
+    8: ($spacer * 5.4),
+    9: ($spacer * 1.9),
+    10: ($spacer * 2.5)
   ),
   $spacers
 );
@@ -172,7 +174,7 @@ $sizes: map-merge(
 //
 // Settings for the `<body>` element.
 
-$body-bg:                   $gray-100 !default;
+$body-bg:                   #fff !default;
 $body-color:                $gray-900 !default;
 
 

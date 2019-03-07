@@ -29,11 +29,23 @@ body {
 .custom-gray-2 {
   color: #8D8B8B !important; }
 
+.custom-gray-3 {
+  color: #3E3E3E !important; }
+
+.custom-gray-4 {
+  color: #F2F2F2; }
+
+.custom-green-bg {
+  background: rgba(138, 185, 87, 0.2); }
+
 .text-black {
   color: #000 !important; }
 
 .custom-black-1 {
   color: #313131 !important; }
+
+.custom-background {
+  background: #F2F2F2 !important; }
 
 .element-shadow {
   box-shadow: 0px 3px 34px rgba(0, 0, 0, 0.1); }
@@ -89,6 +101,10 @@ body {
     padding-top: 67.4%; }
   .img-holder.size-5by4:after {
     padding-top: 75.27%; }
+  .img-holder.size-single-news-big-img:after {
+    padding-top: 53.75%; }
+  .img-holder.size-read-more-img:after {
+    padding-top: 62.13%; }
   .img-holder.size-16by9:after {
     padding-top: 56.25%; }
   .img-holder.size-12by8:after {
@@ -701,6 +717,58 @@ body {
   bottom: 35px; }
 
 /* YOUTUBE COMMENTS END */
+/************* END OF FIRST PAGE  ***************/
+.vesti-category-home {
+  display: inline-block;
+  padding: 6px;
+  background: #EBEBEB; }
+
+.vesti-shared {
+  padding: 7px;
+  color: #fff; }
+  .vesti-shared:hover {
+    color: #fff; }
+
+.single-news-content p {
+  margin-bottom: 1.5rem; }
+
+/******** COMMENTS FORM *******/
+.form-group input {
+  border: 0.5px solid #E2E1E7; }
+  .form-group input::placeholder {
+    color: #ABABAB;
+    font-size: 13px; }
+
+.form-group button {
+  font-size: 13px; }
+
+/******** COMMENTS FORM END *******/
+/**** COMMENT INNER ******/
+.comment-inner-item {
+  border: 1px solid #E9E9E9; }
+  .comment-inner-item a {
+    font-size: 22px; }
+
+.comment-inner-comment {
+  font-size: 15px; }
+
+/******* READ MORE ********/
+.read-more .read-more-details a {
+  line-height: 1.2rem;
+  display: inline-block;
+  color: #313131; }
+  .read-more .read-more-details a:hover {
+    color: #313131; }
+
+.read-more-border-top {
+  height: 1px;
+  width: 100%;
+  background: #D8D8D8; }
+
+/******* DRUGA STRANA ASIDE ********/
+.last-comments .vertical-slider-quotes {
+  border-bottom: 1px solid #D8D8D8; }
+
 footer {
   background: #272727;
   padding-top: 34px; }

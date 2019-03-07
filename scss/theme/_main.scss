@@ -264,3 +264,80 @@
     bottom: 35px;
 }
 /* YOUTUBE COMMENTS END */
+
+/************* END OF FIRST PAGE  ***************/
+
+
+.vesti-category-home {
+    display: inline-block;
+    padding: 6px;
+    background: #EBEBEB;
+}
+
+.vesti-shared {
+    padding: 7px;
+    color: #fff;
+    &:hover {
+        color: #fff;
+    }
+}
+.single-news-content {
+    p {
+        margin-bottom: 1.5rem;
+    }
+}
+
+/******** COMMENTS FORM *******/
+
+.form-group input {
+    border:0.5px solid #E2E1E7;
+    &::placeholder {
+        color: #ABABAB;
+        font-size: 13px;
+    }
+}
+.form-group button {
+    font-size: 13px;
+}
+/******** COMMENTS FORM END *******/
+
+/**** COMMENT INNER ******/
+
+.comment-inner-item {
+    border: 1px solid #E9E9E9;
+    a {
+        font-size: 22px;
+    }
+    
+}
+.comment-inner-comment {
+    font-size: 15px;
+}
+
+/******* READ MORE ********/
+.read-more {
+    .read-more-details {
+        a {
+            line-height: 1.2rem;
+            display: inline-block;
+            color: #313131;
+            &:hover {
+                color: #313131;
+            }
+        }
+    }
+}
+.read-more-border-top {
+    height: 1px;
+    width: 100%;
+    background: #D8D8D8;
+}
+
+/******* DRUGA STRANA ASIDE ********/
+
+.last-comments {
+    .vertical-slider-quotes {
+        border-bottom: 1px solid #D8D8D8;
+    }
+}
+
