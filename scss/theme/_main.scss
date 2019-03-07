@@ -268,24 +268,6 @@
 /************* END OF FIRST PAGE  ***************/
 
 
-.vesti-category-home {
-    display: inline-block;
-    padding: 6px;
-    background: #EBEBEB;
-}
-
-.vesti-shared {
-    padding: 7px;
-    color: #fff;
-    &:hover {
-        color: #fff;
-    }
-}
-.single-news-content {
-    p {
-        margin-bottom: 1.5rem;
-    }
-}
 
 /******** COMMENTS FORM *******/
 
@@ -336,8 +318,13 @@
 /******* DRUGA STRANA ASIDE ********/
 
 .last-comments {
-    .vertical-slider-quotes {
+    .section-side-list-details {
         border-bottom: 1px solid #D8D8D8;
     }
+    
+    
+}
+.section-side-list:last-of-type .section-side-list-details {
+    border-bottom: none;
 }
 

@@ -1,0 +1,18 @@
+.vesti-category-home {
+    display: inline-block;
+    padding: 6px;
+    background: #EBEBEB;
+}
+
+.vesti-shared {
+    padding: 7px;
+    color: #fff;
+    &:hover {
+        color: #fff;
+    }
+}
+.single-news-content {
+    p {
+        margin-bottom: 1.5rem;
+    }
+}

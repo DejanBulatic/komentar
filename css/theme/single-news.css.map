@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,oBAAqB;EACjB,OAAO,EAAE,YAAY;EACrB,OAAO,EAAE,GAAG;EACZ,UAAU,EAAE,OAAO;;AAGvB,aAAc;EACV,OAAO,EAAE,GAAG;EACZ,KAAK,EAAE,IAAI;EACX,mBAAQ;IACJ,KAAK,EAAE,IAAI;;AAIf,sBAAE;EACE,aAAa,EAAE,MAAM",
+"sources": ["../../scss/theme/single-news.scss"],
+"names": [],
+"file": "single-news.css"
+}
