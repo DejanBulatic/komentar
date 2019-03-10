@@ -328,11 +328,80 @@
     border-bottom: none;
 }
 @media(min-width:992px){
-/** second page aside show / hide */
-    
-.second-page-aside {
-    display: block;
-}
-    
+    /** second page aside show / hide */
+
+    .second-page-aside {
+        display: block;
+    }
+
 }
 
+/******* LISTA VESTI *******/
+.lista-vesti {
+    .shared-nr {
+        right: -8px;
+        bottom: 30%;
+    }
+}
+.lista-vesti-content {
+    h2 {
+        a {
+            display: inline-block;
+            font-size: 1.28rem;
+            line-height: 1.4rem;
+            height: 1.4rem;
+            overflow: hidden;
+            color: #313131;
+            &:hover {
+                color: #313131;
+            }
+        }
+    }
+    p {
+        line-height: 1.1rem;
+        height: 2.2rem;
+        overflow: hidden;
+        display: none;
+    }
+}
+
+
+@media(min-width:710px){
+    /** lista-vest-content paragraph show / hide */
+
+    .lista-vesti-content {
+        p {
+            display: block;
+        }
+    }
+
+}
+
+@media(min-width:460px){
+    /** lista-vest-content paragraph show / hide */
+
+    .lista-vesti-content {
+        h2 {
+            a{
+                height: 2.8rem;
+            }
+        }
+    }
+}
+
+@media(min-width:1200px){
+    /** lista-vest-content paragraph show / hide */
+
+    .lista-vesti-content {
+        p {
+            
+        }
+        
+        h2 {
+            a{
+                height: 1.4rem;
+            }
+        }
+    }
+
+}

@@ -121,7 +121,7 @@ $(document).ready(function () {
 //QUOTES VERTICAL SLICK SLIDER
 
     $('.vertical-slider-quotes').slick({
-//        autoplay: true,
+        autoplay: true,
         slidesToShow: 4,
         vertical: true,
         verticalSwiping: true,

@@ -111,6 +111,8 @@ body {
     padding-top: 58.3%; }
   .img-holder.size-13by9:after {
     padding-top: 59.5%; }
+  .img-holder.size-lista-vesti:after {
+    padding-top: 70.48%; }
   .img-holder img {
     display: block;
     position: absolute;
@@ -396,22 +398,18 @@ body {
 .navbar-light .navbar-nav .nav-link {
   font-size: 18px;
   color: #25282A; }
+  .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: #25282A;
+    background: #F2F2F2;
+    transition: 0.2s linear; }
+  .navbar-light .navbar-nav .nav-link span {
+    padding: 7px;
+    display: block; }
 
 .navbar-nav .nav-item {
   border-bottom: 1px solid #ccc; }
-
-.navbar-nav .nav-item:last-of-type {
-  border-bottom: none; }
-
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link:focus {
-  color: #25282A;
-  background: #F2F2F2;
-  transition: 0.2s linear; }
-
-.navbar-nav .nav-item a {
-  padding: 7px 7px !important; }
+  .navbar-nav .nav-item:last-of-type {
+    border-bottom: none; }
 
 /*  HEADER SEARCH START  */
 .search-wrapper .search-icon {
@@ -498,7 +496,7 @@ body {
     transition: 0.4s ease; }
 
   .navbar-nav li a:hover span,
-  .navbar-nav-li a.active span {
+  .navbar-nav li a.active span {
     border-color: inherit !important;
     width: 100%; }
 
@@ -765,6 +763,38 @@ body {
   /** second page aside show / hide */
   .second-page-aside {
     display: block; } }
+/******* LISTA VESTI *******/
+.lista-vesti .shared-nr {
+  right: -8px;
+  bottom: 30%; }
+
+.lista-vesti-content h2 a {
+  display: inline-block;
+  font-size: 1.28rem;
+  line-height: 1.4rem;
+  height: 1.4rem;
+  overflow: hidden;
+  color: #313131; }
+  .lista-vesti-content h2 a:hover {
+    color: #313131; }
+.lista-vesti-content p {
+  line-height: 1.1rem;
+  height: 2.2rem;
+  overflow: hidden;
+  display: none; }
+
+@media (min-width: 710px) {
+  /** lista-vest-content paragraph show / hide */
+  .lista-vesti-content p {
+    display: block; } }
+@media (min-width: 460px) {
+  /** lista-vest-content paragraph show / hide */
+  .lista-vesti-content h2 a {
+    height: 2.8rem; } }
+@media (min-width: 1200px) {
+  /** lista-vest-content paragraph show / hide */
+  .lista-vesti-content h2 a {
+    height: 1.4rem; } }
 .vesti-category-home {
   display: inline-block;
   padding: 6px;
