@@ -70,13 +70,22 @@
     color: #979797;
     cursor: pointer;
 }
+.search-wrapper .fa {
+    font-size: 22px;
+    color: #E2E1E7 !important;
+}
 .search-wrapper .form-group {
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
     display: none;
+    z-index: 10;
 }
+.search-wrapper .btn-outline-secondary {
+    border-color: #E2E1E7 !important;
+}
+
 /*  HEADER SEARCH END  */
 
 /* HAMBURGER BUTTON START */

@@ -1,7 +1,7 @@
 .lead-news-section {
     /*   MAIN SIDE NEWS START    */
     .side-item {
-        margin-bottom: 0.7rem;
+        margin-bottom: 0.5rem;
         .side-item-name {
             padding-bottom: 0.7rem;
             border-bottom: 1px solid #ccc;
@@ -291,6 +291,10 @@
         font-size: 22px;
     }
 
+}
+.social-comments .comments-bg {
+    display: inline-block;
+    background: #FAFAFA;
 }
 .comment-inner-comment {
     font-size: 15px;

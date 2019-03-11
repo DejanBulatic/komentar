@@ -1,6 +1,7 @@
 footer {
     background: #272727;
     padding-top: 34px;
+    position: relative;
 }
 .footer-top {
     margin-bottom: 30px;
@@ -32,6 +33,13 @@ footer .footer-midle a {
     &:hover {
         color: #fff;
     }
+}
+.goTopBtn {
+    display: block;
+    position: absolute;
+    top: -30px;
+    right: 22px;
+    cursor: pointer;
 }
 
 @media(min-width:450px){

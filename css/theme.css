@@ -418,12 +418,20 @@ body {
   color: #979797;
   cursor: pointer; }
 
+.search-wrapper .fa {
+  font-size: 22px;
+  color: #E2E1E7 !important; }
+
 .search-wrapper .form-group {
   position: absolute;
   top: 100%;
   left: 0;
   width: 100%;
-  display: none; }
+  display: none;
+  z-index: 10; }
+
+.search-wrapper .btn-outline-secondary {
+  border-color: #E2E1E7 !important; }
 
 /*  HEADER SEARCH END  */
 /* HAMBURGER BUTTON START */
@@ -510,7 +518,7 @@ body {
   /* LEAD NEWS TABULATOR */
   /* LEAD NEWS TABULATOR END */ }
   .lead-news-section .side-item {
-    margin-bottom: 0.7rem; }
+    margin-bottom: 0.5rem; }
     .lead-news-section .side-item .side-item-name {
       padding-bottom: 0.7rem;
       border-bottom: 1px solid #ccc; }
@@ -733,6 +741,10 @@ body {
   .comment-inner-item a {
     font-size: 22px; }
 
+.social-comments .comments-bg {
+  display: inline-block;
+  background: #FAFAFA; }
+
 .comment-inner-comment {
   font-size: 15px; }
 
@@ -811,7 +823,8 @@ body {
 
 footer {
   background: #272727;
-  padding-top: 34px; }
+  padding-top: 34px;
+  position: relative; }
 
 .footer-top {
   margin-bottom: 30px; }
@@ -840,6 +853,13 @@ footer .footer-midle a {
   margin-left: 1.8rem; }
   footer .footer-midle a:hover {
     color: #fff; }
+
+.goTopBtn {
+  display: block;
+  position: absolute;
+  top: -30px;
+  right: 22px;
+  cursor: pointer; }
 
 @media (min-width: 450px) {
   .footer-top ul {

@@ -1,21 +1,14 @@
 $(document).ready(function () {
 
 
-    //HEADER SEARCH ICON TOGGLER
+//HEADER SEARCH ICON TOGGLER
     $('.search-icon').click(function () {
         $(this).next().slideToggle();
     });
-
-
-
     //BURGER TOGGLER ANIMATION 
     $('.burger').click(function () {
         $(this).toggleClass('active');
     });
-
-
-
-
     //FILL ELEMENTS DEPENDS OF CATEGORY
     $('[data-category]').each(function () {
         var color = $(this).data('category');
@@ -23,19 +16,14 @@ $(document).ready(function () {
         $(this).find('.category-border').css('border-color', color);
         $(this).find('.category-color').css('color', color);
     });
-
-
     // EASE SCROLL
 
     $(document).on('click', 'a[href^="#"]', function (event) {
         event.preventDefault();
-
         $('html, body').animate({
             scrollTop: $($.attr(this, 'href')).offset().top
         }, 800);
     });
-
-
     //ANIMATION 
 
     function animation() {
@@ -51,16 +39,12 @@ $(document).ready(function () {
             }
             console.log(position);
         });
-
     }
 
     animation();
-
     $(window).scroll(function () {
         animation();
     });
-
-
 //OWL CAROUSEL LEAD NEWS
 
     if ($('.owl-carousel').length > 0) {
@@ -104,7 +88,7 @@ $(document).ready(function () {
 
 
 
-        });//comments slider end
+        }); //comments slider end
     }//owl carousel end
 
 
@@ -117,7 +101,6 @@ $(document).ready(function () {
         verticalSwiping: true,
         arrows: false
     });
-
 //QUOTES VERTICAL SLICK SLIDER
 
     $('.vertical-slider-quotes').slick({
@@ -129,6 +112,61 @@ $(document).ready(function () {
     });
 
 
-});//end document.ready
+
+
+// FORM VALIDATION ----- OSTAVI KONETAR --- IME
+
+    $(function () {
+        $(".comments-form").validate({
+            highlight: function (element) {
+                $(element).closest('.form-group').addClass("has-danger");
+                $(element).addClass("form-control-danger");
+            },
+            unhighlight: function (element) {
+                $(element).closest('.form-group').removeClass('has-danger').addClass('has-success');
+                $(element).removeClass('form-control-danger').addClass('form-control-success');
+            },
+            rules: {
+                name: {
+                    required: true
+                },
+                message: {
+                    required: true
+                }
+
+
+
+
+            },
+            messages: {
+                name: {
+                    required: 'Polje Ime je obavezno'
+                },
+
+                message: {
+                    required: 'Polje je obavezno'
+                }
+
+
+            },
+            errorElement: 'p',
+            errorPlacement: function (error, element) {
+                error.appendTo($(element).closest('.form-group').find('.error-msg'));
+            }
+
+        });
+    });
+
+    
+
+//         GO TO TOP BUTTON
+
+
+$('.goTopBtn').click(function(){
+    $('html, body').animate({scrollTop : 0},800);
+});
+
+
+}); //end document.ready
 
 
